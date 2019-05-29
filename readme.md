@@ -21,7 +21,7 @@ Exporte os arquivos e deixe os exatamente na mesma pasta deste código.
 
 ### Para usar a função:
 
-1. Abra o termina do computador e digite **jupyter notebook**
+1. Abra o terminal do computador e digite **jupyter notebook**
 2. Navegue até a pasta dos arquivos: *outFunc.py*, *clientes.csv*, *lista.csv*
 3. Aperte o *+* no canto superior direito e crie um notebook python3
 4. Copie todo o código do arquivo *outFunc.py*
