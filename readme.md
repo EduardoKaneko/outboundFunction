@@ -1,4 +1,5 @@
 ## Função para remover clientes e deals do pipe de listas de outbound
+___________________
 
 ### Instalações:
 
@@ -18,8 +19,6 @@ Exporte os arquivos e deixe os exatamente na mesma pasta deste código.
     - Deve conter uma coluna "email"
 
 
-### A qualidade da limpeza, se você vai remover todos os clientes que estão nos arquivo 01 do arquivo 02, depende 100% da qualidade dos dados. 
-
 ### Para usar a função:
 
 1. Abra o termina do computador e digite **jupyter notebook**
@@ -31,5 +30,5 @@ Exporte os arquivos e deixe os exatamente na mesma pasta deste código.
 7. Na linha seguinte digite exatamente **cleanOutbound(df1, df2)**
 8. O csv já deve estar na mesma pasta
 
-> Para navegar basta usar o comando **ls** e **cd**. Digite **ls** para ver todas as pastas disponíveis, depois **cd nomepasta** para entrar na pasta. Por exemplo: **ls** --> **cd Downloads** --> **ls** --> **cd listas_de_outbound**
+>  A qualidade da limpeza, se você vai remover todos os clientes que estão nos arquivo 01 do arquivo 02, depende 100% da qualidade dos dados. 
 
