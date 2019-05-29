@@ -1,5 +1,4 @@
-# Função para remover clientes e deals do pipe de listas de outbound
-___________________
+## Função para remover clientes e deals do pipe de listas de outbound
 
 ### Instalações:
 
