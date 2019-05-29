@@ -1,25 +1,12 @@
 import pandas as pd
 import numpy as np
 
-# PASSAR O CSV DA LISTA DE CLIENTES QUE VOCÊ QUER EXCLUIR
-'''
-- INSTALAR ANACONDA
-- INSTALAR PYTHON
-- RODAR NO TERMINAL "JUPYTER NOTEOOK"
 
-'''
-
-
-'''
-PADRAO DO CSV:
- - coluna 01: Pessoa - Organização
- - coluna 02: Pessoa - E-mail
-'''
-
+# "COLOCAR NOME DO ARVQUIVO DE CLIENTES"
 df1 = pd.read_csv("leads-pipe.csv")
 
-# Leads de outbound (a serem limpados)
-# df2 = pd.read_csv("leads-kenoby.csv")
+
+# "COLOCAR NOME DO ARQUIVO CSV A SER LIMPADO"
 df2 = pd.read_csv("leads-kenoby.csv")
 
 def cleanOutbound(df1, df2):

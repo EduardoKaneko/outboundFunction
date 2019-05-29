@@ -22,9 +22,9 @@ Exporte os arquivos e deixe os exatamente na mesma pasta deste código.
 ### Para usar a função:
 
 1. Abra o terminal do computador e digite **jupyter notebook**
-2. Navegue até a pasta dos arquivos: *outFunc.py*, *clientes.csv*, *lista.csv*
+2. Navegue até a pasta dos arquivos: **outFunc.py**, **clientes.csv**, **lista.csv**
 3. Aperte o *+* no canto superior direito e crie um notebook python3
-4. Copie todo o código do arquivo *outFunc.py*
+4. Copie todo o código do arquivo **outFunc.py** e cole na primeira linha do jupyter notebook
 5. Edite as linhas com **df1 = pd.read_csv("COLOCAR NOME DO ARVQUIVO DE CLIENTES AQUI")** e **df2 = pd.read_csv("COLOCAR NOME DO ARQUIVO CSV A SER LIMPADO AQUI")**
 6. Aprente **shift + enter**
 7. Na linha seguinte digite exatamente **cleanOutbound(df1, df2)**
