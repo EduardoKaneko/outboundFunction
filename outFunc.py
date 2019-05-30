@@ -76,6 +76,9 @@ def cleanOutbound(df1, df2):
         d_index_empresas = sorted(set(d_index_list))
         
         df3_clean = df2_clean.drop(d_index_empresas)
+        print("Empresas encontradas: {}".format(len(comps)))
+        print("Dominios Encontrados: {}".format(len(domains)))
+        print("Total de removidos: {}".format(len(comps)+len(domains)))
         
         return df3_clean.to_csv("dataset-clean.csv")
 
