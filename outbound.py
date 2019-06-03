@@ -80,6 +80,7 @@ def cleanOutbound(df1, df2):
         print("Dominios Encontrados: {}".format(len(domains)))
         print("Total de removidos: {}".format(len(comps)+len(domains)))
         df3_clean.to_csv("dataset-clean.csv")
+        print("Número de Linhas: {}".format(len(df3_clean)))
         print(len(df3_clean))
         return print("acabou")
 
